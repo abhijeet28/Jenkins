@@ -1,16 +1,33 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+target
+bin
+.classpath
+.settings
+.project
+*.iml
+*.ipr
+*.iws
+/.idea
+.nb-gradle-properties
+work
+nbactions.xml
+/.nb-gradle/
+/.gradle
+gradle-app.setting
+.*.sw?
+*~
+*.bak
+/local*
+build
+generated
+/out
+/classes
+.DS_Store
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+#Jenkins specific out
+*.hpi
+
+#Vagrant
+.vagrant
+.bundle
+
 node_modules
-
-# Book build output
-_book
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf
